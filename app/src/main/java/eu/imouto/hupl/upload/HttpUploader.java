@@ -203,4 +203,14 @@ public class HttpUploader extends Uploader
             }
         }).start();
     }
+
+    private class UploadException extends Throwable {
+        public UploadException(String server_error, String s) {
+
+        }
+
+        public String getTitle() {
+            return "Title";
+        }
+    }
 }

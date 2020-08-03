@@ -1,0 +1,6 @@
+{
+    "name": "pstb.win",
+    "type": "http",
+    "targetUrl": "https://pstb.win/post",
+    "fileParam": "file"
+}
